@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+body {
+    height: 98.3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(-45deg, #CEDADA, #C8EAD3,#B6C8A9);
+}
+.caixaphic > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.caixaphic {
+    background: #e0e5ec;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #97a4b8, -10px -10px 20px rgba(255, 255, 255, 0.945);
+}
+
+.caixaphic-inset {
+    background: #e0e5ec;
+    border-radius: 20px;
+    box-shadow: inset 10px 10px 20px #a3b1c6;
+}
+
+div#container {
+    position: relative;
+    height: 98.3vh;
+
+}
+
+.caixaphic-card {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+}
+
+.caixaphic-input {
+    width: 190px;
+    padding: 15px;
+    margin: 8px;
+    box-shadow: inset -10px -10px -20px #ffff;
+    border: 0px;
+    transition-duration: 0.7s;
+}
+
+.caixaphic-input:hover {
+    width: 200px;
+}
+
+.caixaphic-button {
+    border: 0px;
+    padding: 6px;
+    margin-top: 20px;
+    width: 110px;
+    transition-duration: 0.6s;
+}
+
+.caixaphic-button:hover {
+    width: 120px;
+}
